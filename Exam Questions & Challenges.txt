@@ -1,0 +1,114 @@
+eJPT Exam Questions & Challenges 
+
+----------------------------------------------------------------------------------------------------------------------------
+QUESTIONS WITH ANSWERS:
+----------------------------------------------------------------------------------------------------------------------------
+
+1. Q: What is the IP address of the host running SAMBA?
+A: 192.168.100.52
+
+2. Q: What is the IP address of the host running WordPress?
+A: 192.168.100.50
+
+3. Q: What version of MySQL is running on the system hosting a Drupal site?
+A: MySQL 5.5.5
+
+4. Q: How many hosts on the DMZ network are running a web server on port 80?
+A: 4
+
+5. Q: What Linux distribution is running on the host running the Drupal site?
+A: Ubuntu
+
+6. Q: What services does Syntex provide to companies?
+A: Workflow Development
+
+7. Q: What is the email of the admin user on the Drupal site?
+A: admin@syntex.com
+
+8. Q: What is the name of the active theme on the WordPress site?
+A: spintech
+
+9. Q: How many systems on the target network have FTP servers with anonymous access enabled?
+A: 2
+
+10. Q: How many user accounts can be enumerated from the SAMBA server running on the system hosting Drupal?
+A: 3
+
+11. Q: What type of vulnerability can be exploited on the Drupal site?
+A: RCE (Drupalgeddon 2)
+
+12. Q: Which one of the following meterpreter commands can be used to add a network route?
+A: autoroute
+
+13. Q: What is the subnet of the internal network?
+A: 192.168.0.50
+
+14. Q: What is the password of the user account "dbadmin" on the Linux server hosting Drupal?
+A: sayang
+
+15. Q: What is the CVSS V3.x rating for the Drupalgeddon2 vulnerability?
+A: 9.8
+
+16. Q: What host within the DMZ network can be exploited via command injection?
+A: WINSERVER-02
+
+17. Q: How many Drupal accounts exist on the Drupal site?
+A: 4
+
+18. Q: What version of WordPress is running on WINSERVER-01?
+A: 5.9.3
+
+19. Q: How many plugins are installed on the WordPress site?
+A: 3
+
+20. Q: What WordPress file stores the database configuration?
+A: wp-congif.php
+
+21. Q: Excluding the guest account, how many user accounts are present on WINSERVER-01?
+A: 4
+
+22. Q: What is the total number of open TCP ports running on WINSERVER-02?
+A: 14
+
+23. Q: What Windows utility can be used to download files from a remote web server?
+A: certutil
+
+----------------------------------------------------------------------------------------------------------------------------
+QUESTIONS WITH METHODS:
+----------------------------------------------------------------------------------------------------------------------------
+
+1. Q: How many hosts on the DMZ network are running Windows?
+Method: Check from nmap result
+
+2. Q: How many hosts on the DMZ network are running a database server?
+Method: Scanning ports 3306, 5432, 1433, 1521, and 27017 of all active hosts
+
+3. Q: What version of Windows is running on the host running WordPress?
+Method: Check from nmap result (Windows Server 2012)
+
+4. Q: What is the IP address of the host vulnerable to an SSH brute force attack?
+Method: Check nmap result for host with open port 22
+
+5. Q: What is the IP address of the FTP server that contains a file called updates.txt?
+Method: Check from nmap result (192.168.100.52)
+
+6. Q: What host on the DMZ network is running a database server on port 3307?
+Method: Check nmap result (192.168.100.50)
+
+----------------------------------------------------------------------------------------------------------------------------
+QUESTIONS WITHOUT ANSWERS:
+----------------------------------------------------------------------------------------------------------------------------
+
+1. Q: What is the password of the user account "mary" on WINSERVER-03?
+
+2. Q: What is the root password of the MySQL database on the server running Drupal?
+
+3. Q: What user account is a member of the local administrators group on WINSERVER-03?
+
+4. Q: What is the hashing algorithm used to hash user account passwords on both Linux servers?
+
+5. Q: A system contains the file C:\Users\mike\Documents\flag.txt; what is the value of the flag?
+
+6. Q: The server hosting Drupal contains the file /home/auditor/flag.txt. What is the value of the flag?
+
+7. Q: What is the value of the flag C:\Users\Administrator\flag.txt on WINSERVER-03?
