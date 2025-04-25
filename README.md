@@ -1,6 +1,6 @@
 # eJPT-Exam-Resources
 
-All the required resources eJPT Exam:
+All the required resources for eJPT Exam:
 
 https://pjdeepakkumar.gitbook.io/ejptv2/questions
 
